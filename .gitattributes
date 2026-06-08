@@ -1,0 +1,19 @@
+# Normalize line endings: Git auto-detects text files and stores/checks them
+# out with LF, so the repository stays consistent across OSes (no CRLF noise).
+* text=auto eol=lf
+
+# Be explicit for the file types used here.
+*.ts   text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Common binary files — never normalize these.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
