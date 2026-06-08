@@ -1,0 +1,14 @@
+# Material de estudo local — nunca versionar (em qualquer linguagem/subpasta)
+ESTUDO_pt-BR.md
+**/ESTUDO_pt-BR.md
+
+# Dependências e artefatos comuns de TypeScript/Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
