@@ -12,3 +12,7 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Arquivos de trava/temporários do MS Office (ex.: ~$ESTUDO_pt-BR.md / ~$TUDO_pt-BR.md)
+~$*
+*~
