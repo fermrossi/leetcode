@@ -4,16 +4,12 @@
 
 const NEG = -Infinity;
 
-function maxScore(nums: number[], k: number): number {
+function maximumScore(nums: number[], k: number): number {
   const n = nums.length;
   if (n === 1) return 0;
   const K = Math.min(k, n);
   const w = wrapBest(nums, K);
   return Math.max(linearBest(nums, K), w === NEG ? 0 : w);
-}
-
-function maximizeScore(nums: number[], k: number): number {
-  return maxScore(nums, k);
 }
 
 // Linear array into <= K arcs. Each arc takes one "+" (its max) and one "-"

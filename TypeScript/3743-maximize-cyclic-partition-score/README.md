@@ -58,16 +58,16 @@ edge. We solve two cases and take the max:
 | `[1,2,3,3]`   | `4` | `3`    | same as `k=2` — using fewer than `k` arcs is allowed       |
 
 ### How to run / test
-The file defines both `maxScore` and `maximizeScore` (an alias), so it matches
-whichever name LeetCode's stub uses — just paste `solution.ts` into the editor.
+The entry function is `maximumScore`, matching LeetCode's stub — just paste
+`solution.ts` into the editor.
 
 ```bash
 # Deno (no dependency install needed)
-deno eval "$(cat solution.ts); console.log(maxScore([1,2,3,3], 2))"   # -> 3
+deno eval "$(cat solution.ts); console.log(maximumScore([1,2,3,3], 2))"   # -> 3
 
 # ts-node (Node.js)
 npm i -g ts-node typescript
-ts-node -e "$(cat solution.ts); console.log(maxScore([1,2,3,3], 2))"  # -> 3
+ts-node -e "$(cat solution.ts); console.log(maximumScore([1,2,3,3], 2))"  # -> 3
 ```
 
 ---
@@ -122,14 +122,14 @@ Como o array é **cíclico**, no máximo um arco pode dar a volta pela borda
 | `[1,2,3,3]`   | `4` | `3`   | igual a `k=2` — usar menos que `k` arcos é permitido       |
 
 ### Como executar / testar
-O arquivo define `maxScore` **e** `maximizeScore` (um alias), então casa com
-qualquer nome que o stub do LeetCode use — basta colar `solution.ts` no editor.
+A função de entrada é `maximumScore`, igual ao stub do LeetCode — basta colar
+`solution.ts` no editor.
 
 ```bash
 # Deno (sem instalar dependências)
-deno eval "$(cat solution.ts); console.log(maxScore([1,2,3,3], 2))"   # -> 3
+deno eval "$(cat solution.ts); console.log(maximumScore([1,2,3,3], 2))"   # -> 3
 
 # ts-node (Node.js)
 npm i -g ts-node typescript
-ts-node -e "$(cat solution.ts); console.log(maxScore([1,2,3,3], 2))"  # -> 3
+ts-node -e "$(cat solution.ts); console.log(maximumScore([1,2,3,3], 2))"  # -> 3
 ```
