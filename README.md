@@ -28,3 +28,4 @@ Each problem lives in its own folder with the solution and a bilingual (EN + PT-
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [TypeScript/0004-median-of-two-sorted-arrays](TypeScript/0004-median-of-two-sorted-arrays) |
+| 3743 | [Maximize Cyclic Partition Score](https://leetcode.com/problems/maximize-cyclic-partition-score/) | Hard | [TypeScript/3743-maximize-cyclic-partition-score](TypeScript/3743-maximize-cyclic-partition-score) |
